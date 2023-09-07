@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ 
+@layer base {
+  * {
+    @apply text-[#a7a7a7];
+  }
+
+  h1 {
+    @apply text-[32px] font-semibold text-white;
+  }
+
+  h2 {
+    @apply text-2xl font-semibold text-white;
+  }
+
+  h3 {
+    @apply text-xl font-semibold
+  }
+
+  p {
+    @apply text-lg text-white;
+  }
+
+  span {
+    @apply text-sm;
+  }
+}
