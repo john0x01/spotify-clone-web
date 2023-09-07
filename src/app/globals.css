@@ -4,10 +4,6 @@
 
  
 @layer base {
-  * {
-    @apply text-[#a7a7a7];
-  }
-
   h1 {
     @apply text-[32px] font-semibold text-white;
   }
@@ -17,7 +13,7 @@
   }
 
   h3 {
-    @apply text-xl font-semibold
+    @apply text-xl font-semibold;
   }
 
   p {
@@ -25,6 +21,6 @@
   }
 
   span {
-    @apply text-sm;
+    @apply text-sm text-[#a7a7a7];
   }
 }

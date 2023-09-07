@@ -14,6 +14,9 @@ const config: Config = {
           medium: '#171717',
           dark: '#121212',
         },
+        text: {
+          grey: '#a7a7a7',
+        },
       },
     },
   },
