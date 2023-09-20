@@ -17,6 +17,9 @@ const config: Config = {
         text: {
           grey: '#a7a7a7',
         },
+        brand: {
+          green: '#00F165',
+        },
       },
     },
   },
