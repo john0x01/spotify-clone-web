@@ -17,7 +17,7 @@ export function HomeSearch() {
           selectedOption === 'home' ? 'text-white' : 'text-text-grey'
         }`}
       >
-        <House weight="fill" />
+        <House weight="fill" size={32} />
         <h3>Home</h3>
       </div>
       <div
@@ -26,7 +26,7 @@ export function HomeSearch() {
           selectedOption === 'search' ? 'text-white' : 'text-text-grey'
         }`}
       >
-        <MagnifyingGlass />
+        <MagnifyingGlass size={32} />
         <h3>Search</h3>
       </div>
     </div>
